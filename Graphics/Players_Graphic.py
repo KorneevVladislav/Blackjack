@@ -1,5 +1,5 @@
 import pygame
 
-def PlayerGraphics():
+#def PlayerGraphics():
 
-def DeilerGraphics():
+#def DeilerGraphics():
