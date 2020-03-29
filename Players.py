@@ -10,7 +10,7 @@ def Deler(card_translate, cards, gcards):
         return 23
     
     # Loop for drawing cards
-    while summ < 17:
+    while summ <= 17:
         summ += int(card_translate[cards[0]])
         gcards.append(cards[0])
         del cards[0]
@@ -24,7 +24,7 @@ def Deler(card_translate, cards, gcards):
 
         # Prints results of the draw
         printedcards = ", ".join(gcards)
-        print("Dieler:     Cards: (" + printedcards + ")      Total Sum: " + str(summ))
+        print("Dieler:         Cards: (" + printedcards + ")      Total Sum: " + str(summ))
     
     # If over, loses, unless player is also over
     if summ > 21:
@@ -43,7 +43,7 @@ def Player(card_translate, pnum, cards, gcards):
         return 22
 
     # Draws cards untill reaches 14. Turns Aces to ones if over, needs to know how too double down and split
-    while summ =< 14:
+    while summ <= 14:
         summ += int(card_translate[cards[0]])
         gcards.append(cards[0])
         del cards[0]

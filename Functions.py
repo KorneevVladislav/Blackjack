@@ -1,5 +1,4 @@
 from random import randint
-import Players
 
 # Basic function for finding something in list, slow
 def Find(listt, thing):
