@@ -1,4 +1,6 @@
 import Game_Function
+
+# Just runs everything, nothing much here
 decks = 4
 players = 1
 
