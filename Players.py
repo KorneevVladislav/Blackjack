@@ -10,7 +10,7 @@ def Deler(card_translate, cards, gcards):
         return 23
     
     # Loop for drawing cards
-    while summ <= 17:
+    while summ < 17:
         summ += int(card_translate[cards[0]])
         gcards.append(cards[0])
         del cards[0]
